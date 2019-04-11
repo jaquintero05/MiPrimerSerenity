@@ -1,0 +1,220 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "searcg-in-google-with-data-from-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10319637778,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Juan esta en el sitio de google",
+            "match": {
+              "location": "BusquedaEnGoogleStepDifinition.juanEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2677516786,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el busca la palabra \"switch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "switch",
+                  "offset": 21
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elBuscaLaPalabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2061224,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el verifica la palabra \"\u003cpalabtra\u003e\" este en el resultado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cpalabtra\u003e",
+                  "offset": 24
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elVerificaLaPalabraEsteEnElResultado(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "searcg-in-google-with-data-from-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5395086001,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Juan esta en el sitio de google",
+            "match": {
+              "location": "BusquedaEnGoogleStepDifinition.juanEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2591529909,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el busca la palabra \"shopos cholution\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "shopos cholution",
+                  "offset": 21
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elBuscaLaPalabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3764902,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el verifica la palabra \"\u003cpalabtra\u003e\" este en el resultado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cpalabtra\u003e",
+                  "offset": 24
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elVerificaLaPalabraEsteEnElResultado(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "searcg-in-google-with-data-from-feature;title-of-your-scenario-outline;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5656849933,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Juan esta en el sitio de google",
+            "match": {
+              "location": "BusquedaEnGoogleStepDifinition.juanEstaEnElSitioDeGoogle()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1551337961,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "el busca la palabra \"sjjshuhedk[]}}{\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sjjshuhedk[]}}{",
+                  "offset": 21
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elBuscaLaPalabra(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2068051,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "el verifica la palabra \"\u003cpalabtra\u003e\" este en el resultado",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cpalabtra\u003e",
+                  "offset": 24
+                }
+              ],
+              "location": "BusquedaEnGoogleStepDifinition.elVerificaLaPalabraEsteEnElResultado(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "searcg in google with data from feature",
+    "description": "  Juan quiere hacer  una busqueda en google con datos",
+    "id": "searcg-in-google-with-data-from-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/BusquedaDeGoogle.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
